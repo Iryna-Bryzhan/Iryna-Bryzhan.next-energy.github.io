@@ -1,0 +1,64 @@
+:root {
+  --opaq-1:100%;
+  --opaq-05:50%;
+  --opaq-07:70%;
+  --opaq: var(--opaq-1);
+
+  --clr-fff: 0,0%,100%;
+  --clr-txt: #444;
+  --clr-input: #444;
+  --rgb-brdr: 54 150 240;
+  --clr-txt-lite: #777;
+  --clr-active: rgb(24, 66, 100);
+  --gap05x: .4rem;
+  --gap: .8rem;
+  --gap-: var(--gap);
+  --gap2x: 1.6rem;
+  --gap3x: 2.4rem;
+  --gap4x: 3.2rem;
+
+  --btn-rnd: .3em;   /* button radius */
+  --block-rnd: 8px;   /* button radius */
+  --btn-padding: .6em 1.3em;
+  --btn-padding-equal: .6em;
+  --btn-txt-clr: #fff;
+
+
+  --hsl-l: 50%; 
+  --hsl-base: 0, 0%;
+  --hsl-brand: 209, 86%;
+  --hsl-brand2: 79, 100%;
+  --hsl-ok: 119, 100%;
+  --hsl-err: 0, 82%;
+
+  --hsl-base-l: 27%; 
+  --hsl-brand-l: 58%; 
+  --hsl-brand2-l: 41%; 
+  --hsl-ok-l: 35%;
+  --hsl-err-l: 50%;
+
+  --size-h6-0: .8rem;
+  --size-h6-1: .9rem;
+  --size-base-0: .9rem;
+  --size-base-1: 1rem;
+  --size-h5-0: 1.25rem;
+  --size-h5-1: 1.55rem;
+  --size-h4-0: 1.6rem;
+  --size-h4-1: 1.8rem;
+  --size-h3-0: 1.9rem;
+  --size-h3-1: 2.4rem;
+  --size-h2-0: 2.4rem;
+  --size-h2-1: 3rem;
+  --size-h1-0: 3rem;
+  --size-h1-1: 4rem;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200...900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800;900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600;800&display=swap'); */
+/* body, div, div > *, p, input, select, textarea, a  */
+* {font-family: 'Montserrat', sans-serif; font-weight: 400;}
+/* * {font-family: 'Raleway', sans-serif;} */
+._fw-l {font-weight: 200;}
+._fw-m {font-weight: 400;}
+._fw-b {font-weight: 600;}
+._fw-bb, strong {font-weight: 800;}
