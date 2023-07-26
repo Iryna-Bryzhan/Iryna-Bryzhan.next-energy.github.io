@@ -5,7 +5,7 @@
 .sprite {
     width: 63.66px; /* ширина однієї картинки в спрайті */
     height: 90px; /* висота однієї картинки в спрайті */
-    background-image: url('/img/rsz_css_sprites-5.png'); /* шлях до вашого спрайта */
+    background-image: url('/Iryna-Bryzhan.next-energy.github.io/img/rsz_css_sprites-5.png'); /* шлях до вашого спрайта */
     animation: play-sprite 1s steps(9) infinite;
   }
 
