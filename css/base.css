@@ -614,7 +614,7 @@ margin-bottom: 5%
   height: 20px;
 }
 .portfolio-content_right {
-  font-size: 16px;
+  font-size: 15px;
 }
 .portfolio-content_right li {
   display: flex;
@@ -626,13 +626,13 @@ margin-bottom: 5%
   margin-bottom: 3%;
 }
 .portfolio-content_right span{
-  width: 58%;
+  width: 57%;
  text-align: end;
 }
 .card-price-descr li {
   margin: 5% 0;
 }
 .portfolio-content_right p {
-  font-size: 16px;
+  font-size: 15px;
 }
 }
