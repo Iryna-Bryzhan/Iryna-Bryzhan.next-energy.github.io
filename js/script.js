@@ -21,7 +21,8 @@
 //             currentIndex = nextIndex;
 //         }
 
-        setInterval(toggleVisibility, 30);
+//         setInterval(toggleVisibility, 30);
+
 const form = document.querySelector('#contact-form');
 form.addEventListener('submit', (e) => {
   e.preventDefault(); // отменяем отправку формы по умолчанию
@@ -63,3 +64,104 @@ function myFunction(x) {
     menuBurger.style.display = "none"
   }
 }
+
+
+
+// const slider = document.querySelector('.slider');
+// const prevBtn = document.querySelector('.prev');
+// const nextBtn = document.querySelector('.next');
+
+// let slideIndex = 0;
+
+// function showSlide(index) {
+//   slider.style.transform = `translateX(-${index * 100}%)`;
+// }
+
+// function nextSlide() {
+//   slideIndex = (slideIndex + 1) % 4;
+//   showSlide(slideIndex);
+// }
+
+// function prevSlide() {
+//   slideIndex = (slideIndex - 1 + 4) % 4;
+//   showSlide(slideIndex);
+// }
+
+// nextBtn.addEventListener('click', nextSlide);
+// prevBtn.addEventListener('click', prevSlide);
+
+// // Automatically switch slides every 5 seconds
+// setInterval(nextSlide, 5000);
+
+
+
+// document.addEventListener('DOMContentLoaded', function() {
+//   const slider = document.querySelector('.slider');
+//   const prevSlide = document.querySelector('.prev-slide');
+//   const nextSlide = document.querySelector('.next-slide');
+
+//   let slideIndex = 0;
+
+//   prevSlide.addEventListener('click', function() {
+//       slideIndex = Math.max(slideIndex - 1, 0);
+//       updateSlider();
+//   });
+
+//   nextSlide.addEventListener('click', function() {
+//       slideIndex = Math.min(slideIndex + 1, slider.children.length - 1);
+//       updateSlider();
+//   });
+
+//   function updateSlider() {
+//       const slideWidth = slider.offsetWidth;
+//       const slideOffset = -slideIndex * slideWidth;
+//       slider.style.transform = `translateX(${slideOffset}px)`;
+//   }
+// });
+
+
+
+$(document).ready(function(){
+  $('.customer-logos').slick({
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      arrows: false,
+      dots: false,
+      pauseOnHover: false,
+      responsive: [
+          {
+              breakpoint: 1200,
+              settings: {
+                  slidesToShow: 5
+              }
+          },
+          {
+              breakpoint: 768,
+              settings: {
+                  slidesToShow: 4
+              }
+          },
+          {
+              breakpoint: 520,
+              settings: {
+                  slidesToShow: 3
+              }
+          }
+      ]
+  });
+
+  // Handle navigation arrows
+  $('.prev-slide').click(function() {
+      $('.customer-logos').slick('slickPrev');
+  });
+
+  $('.next-slide').click(function() {
+      $('.customer-logos').slick('slickNext');
+  });
+});
+
+
+console.log(1)
+
